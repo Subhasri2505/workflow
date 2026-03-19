@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Workflow Engine
 
 A full-stack workflow management system built with **Next.js 16**, **PostgreSQL**, and **Prisma ORM**. Design workflows, define conditional rules, execute processes, and audit every step.
@@ -263,3 +264,6 @@ src/
 prisma/
 └── schema.prisma             # Database schema
 ```
+=======
+# workflow
+>>>>>>> b2f00b1a81f3d0caedc0f74face07cb78be978fb
