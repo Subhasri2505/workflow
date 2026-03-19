@@ -1,0 +1,94 @@
+src/app/audit/page.tsx(15,37): error TS2304: Cannot find name 'useWorkflowStore'.
+src/app/audit/page.tsx(16,52): error TS2304: Cannot find name 'Execution'.
+src/app/audit/page.tsx(142,39): error TS7006: Parameter 'log' implicitly has an 'any' type.
+src/app/audit/page.tsx(142,44): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/app/audit/page.tsx(153,49): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/app/audit/page.tsx(153,52): error TS7006: Parameter 'j' implicitly has an 'any' type.
+src/app/workflows/[id]/edit/page.tsx(98,39): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/app/workflows/[id]/edit/page.tsx(132,45): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/app/workflows/[id]/edit/page.tsx(207,28): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/edit/page.tsx(209,26): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/edit/page.tsx(214,26): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/edit/page.tsx(216,31): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/edit/page.tsx(256,26): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/app/workflows/[id]/edit/page.tsx(256,29): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/app/workflows/[id]/edit/page.tsx(257,25): error TS7006: Parameter 'step' implicitly has an 'any' type.
+src/app/workflows/[id]/edit/page.tsx(257,31): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/app/workflows/[id]/execute/page.tsx(44,11): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/execute/page.tsx(45,16): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/execute/page.tsx(104,27): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/execute/page.tsx(106,24): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/execute/page.tsx(110,22): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/execute/page.tsx(119,26): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/execute/page.tsx(119,52): error TS7006: Parameter 'v' implicitly has an 'any' type.
+src/app/workflows/[id]/execute/page.tsx(127,31): error TS18046: 'field' is of type 'unknown'.
+src/app/workflows/[id]/execute/page.tsx(188,24): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/app/workflows/[id]/execute/page.tsx(206,37): error TS7006: Parameter 'log' implicitly has an 'any' type.
+src/app/workflows/[id]/execute/page.tsx(206,42): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/app/workflows/[id]/execute/page.tsx(222,53): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/app/workflows/[id]/execute/page.tsx(222,56): error TS7006: Parameter 'j' implicitly has an 'any' type.
+src/app/workflows/[id]/execute/page.tsx(246,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/components/StatusBadge.tsx(1,10): error TS2305: Module '"@/types/workflow"' has no exported member 'ExecutionStatus'.
+src/components/StepRuleEditor.tsx(29,45): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/components/StepRuleEditor.tsx(49,35): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/components/StepRuleEditor.tsx(71,18): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/components/StepRuleEditor.tsx(71,21): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/components/StepRuleEditor.tsx(72,17): error TS7006: Parameter 'rule' implicitly has an 'any' type.
+src/components/StepRuleEditor.tsx(74,16): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/components/StepRuleEditor.tsx(148,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/components/ui/calendar.tsx(55,9): error TS2353: Object literal may only specify known properties, and 'IconLeft' does not exist in type 'Partial<CustomComponents>'.
+src/components/ui/chart.tsx(117,7): error TS2339: Property 'payload' does not exist on type 'Omit<Omit<Props<ValueType, NameType>, PropertiesReadFromContext> & { active?: boolean | undefined; allowEscapeViewBox?: AllowInDimension | undefined; ... 24 more ...; wrapperStyle?: CSSProperties | undefined; } & ClassAttributes<...> & HTMLAttributes<...> & { ...; }, "ref">'.
+src/components/ui/chart.tsx(122,7): error TS2339: Property 'label' does not exist on type 'Omit<Omit<Props<ValueType, NameType>, PropertiesReadFromContext> & { active?: boolean | undefined; allowEscapeViewBox?: AllowInDimension | undefined; ... 24 more ...; wrapperStyle?: CSSProperties | undefined; } & ClassAttributes<...> & HTMLAttributes<...> & { ...; }, "ref">'.
+src/components/ui/chart.tsx(186,25): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/components/ui/chart.tsx(186,31): error TS7006: Parameter 'index' implicitly has an 'any' type.
+src/components/ui/chart.tsx(262,41): error TS2344: Type '"payload" | "verticalAlign"' does not satisfy the constraint '"string" | "result" | "id" | "cursor" | "name" | "version" | "order" | "filter" | "values" | "fill" | "suppressHydrationWarning" | "className" | "color" | "height" | "lang" | "max" | ... 434 more ... | "onBBoxUpdate"'.
+  Type '"payload"' is not assignable to type '"string" | "result" | "id" | "cursor" | "name" | "version" | "order" | "filter" | "values" | "fill" | "suppressHydrationWarning" | "className" | "color" | "height" | "lang" | "max" | ... 434 more ... | "onBBoxUpdate"'.
+src/components/ui/chart.tsx(273,19): error TS2339: Property 'length' does not exist on type '{}'.
+src/components/ui/chart.tsx(286,18): error TS2339: Property 'map' does not exist on type '{}'.
+src/components/ui/chart.tsx(286,23): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/components/ui/resizable.tsx(9,51): error TS2339: Property 'PanelGroup' does not exist on type 'typeof import("D:/Saravana Saran/Files/Test/Test/workflow-engine/node_modules/react-resizable-panels/dist/react-resizable-panels")'.
+src/components/ui/resizable.tsx(10,23): error TS2339: Property 'PanelGroup' does not exist on type 'typeof import("D:/Saravana Saran/Files/Test/Test/workflow-engine/node_modules/react-resizable-panels/dist/react-resizable-panels")'.
+src/components/ui/resizable.tsx(25,51): error TS2339: Property 'PanelResizeHandle' does not exist on type 'typeof import("D:/Saravana Saran/Files/Test/Test/workflow-engine/node_modules/react-resizable-panels/dist/react-resizable-panels")'.
+src/components/ui/resizable.tsx(28,23): error TS2339: Property 'PanelResizeHandle' does not exist on type 'typeof import("D:/Saravana Saran/Files/Test/Test/workflow-engine/node_modules/react-resizable-panels/dist/react-resizable-panels")'.
+src/components/ui/resizable.tsx(40,24): error TS2339: Property 'PanelResizeHandle' does not exist on type 'typeof import("D:/Saravana Saran/Files/Test/Test/workflow-engine/node_modules/react-resizable-panels/dist/react-resizable-panels")'.
+src/components/ui/sidebar.tsx(6,29): error TS2307: Cannot find module '@/hooks/use-mobile' or its corresponding type declarations.
+src/components/ui/toaster.tsx(1,26): error TS2307: Cannot find module '@/hooks/use-toast' or its corresponding type declarations.
+src/components/ui/toaster.tsx(16,31): error TS7031: Binding element 'id' implicitly has an 'any' type.
+src/components/ui/toaster.tsx(16,35): error TS7031: Binding element 'title' implicitly has an 'any' type.
+src/components/ui/toaster.tsx(16,42): error TS7031: Binding element 'description' implicitly has an 'any' type.
+src/components/ui/toaster.tsx(16,55): error TS7031: Binding element 'action' implicitly has an 'any' type.
+src/components/ui/use-toast.ts(1,33): error TS2307: Cannot find module '@/hooks/use-toast' or its corresponding type declarations.
+src/lib/prisma.ts(2,22): error TS2307: Cannot find module 'pg' or its corresponding type declarations.
+src/lib/prisma.ts(3,26): error TS2307: Cannot find module '@prisma/adapter-pg' or its corresponding type declarations.
+src/lib/ruleEngine.ts(1,16): error TS2305: Module '"@/types/workflow"' has no exported member 'RuleEvaluation'.
+src/lib/seedData.ts(46,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/lib/seedData.ts(47,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/lib/seedData.ts(48,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/lib/seedData.ts(49,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/lib/seedData.ts(50,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/lib/workflowEngine.ts(86,7): error TS2322: Type 'Record<string, unknown>' is not assignable to type 'JsonNull | InputJsonValue | undefined'.
+  Type 'Record<string, unknown>' is missing the following properties from type 'readonly (InputJsonValue | null)[]': length, concat, join, slice, and 26 more.
+src/lib/workflowEngine.ts(135,13): error TS2322: Type 'RuleEvaluation[]' is not assignable to type 'JsonNull | InputJsonValue | undefined'.
+  Type 'RuleEvaluation[]' is not assignable to type 'InputJsonObject'.
+    Index signature for type 'string' is missing in type 'RuleEvaluation[]'.
+src/lib/workflowEngine.ts(160,9): error TS2322: Type 'RuleEvaluation[]' is not assignable to type 'JsonNull | InputJsonValue | undefined'.
+  Type 'RuleEvaluation[]' is not assignable to type 'InputJsonObject'.
+    Index signature for type 'string' is missing in type 'RuleEvaluation[]'.
+src/lib/workflowEngine.ts(223,7): error TS2322: Type 'RuleEvaluation[]' is not assignable to type 'JsonNull | InputJsonValue | undefined'.
+  Type 'RuleEvaluation[]' is not assignable to type 'InputJsonObject'.
+    Index signature for type 'string' is missing in type 'RuleEvaluation[]'.
+src/lib/workflowEngine.ts(275,9): error TS2322: Type 'RuleEvaluation[]' is not assignable to type 'JsonNull | InputJsonValue | undefined'.
+  Type 'RuleEvaluation[]' is not assignable to type 'InputJsonObject'.
+    Index signature for type 'string' is missing in type 'RuleEvaluation[]'.
+src/store/workflowStore.ts(3,30): error TS2307: Cannot find module 'uuid' or its corresponding type declarations.
+src/store/workflowStore.ts(92,85): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/store/workflowStore.ts(106,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/store/workflowStore.ts(114,37): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/store/workflowStore.ts(131,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/store/workflowStore.ts(143,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/store/workflowStore.ts(145,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/store/workflowStore.ts(154,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/store/workflowStore.ts(156,39): error TS7006: Parameter 'r' implicitly has an 'any' type.
+tailwind.config.ts(4,3): error TS2322: Type '["class"]' is not assignable to type 'DarkModeStrategy | undefined'.
+  Type '["class"]' is not assignable to type '["class", string]'.
+    Source has 1 element(s) but target requires 2.
