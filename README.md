@@ -5,8 +5,6 @@ A full-stack workflow management system built with **Next.js 16**, **PostgreSQL*
 ---
 ## Live Link
 https://adorable-biscuit-4d4107.netlify.app/
-## Demo Vedio
-https://github.com/Subhasri2505/workflow/assets/Workflow.mp4
 ## Tech Stack
 
 | Layer | Technology |
